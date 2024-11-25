@@ -21,8 +21,7 @@ header {
     text-align: center;
 }
 
-h1
-{
+h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     font-weight: bold;
@@ -55,15 +54,15 @@ p {
     font-style: italic;
 }
 
-.quote:before{
+.quote:before {
     content: open-quote;
 }
 
-.quote:after{
+.quote:after {
     content: open-quote;
 }
-.bold{
+
+.bold {
     font-weight: bold;
     font-style: italic;
 }
-
