@@ -1,20 +1,39 @@
 body {
     background-color: blanchedalmond;
 
-    table,
-    th,
-    td {
-        border: 1px solid black;
-    }
+
 }
 
-h1,
+table {
+    text-align: center;
+    border: 1px solid black;
+    width: 75%;
+}
+
+th,
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
 h2,
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     font-weight: bold;
-
+    font-style: italic;
 }
 
 h4,
@@ -35,3 +54,17 @@ p {
     color: maroon;
     font-style: italic;
 }
+
+.quote:before{
+    content: open-quote;
+}
+
+.quote:after{
+    content: open-quote;
+}
+.bold{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
