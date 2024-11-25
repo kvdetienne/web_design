@@ -1,9 +1,37 @@
 body {
     background-color: blanchedalmond;
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
 }
 
-table,
-th,
-td {
-    border: 1px solid black;
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+
+}
+
+h4,
+h5,
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: normal;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: normal;
+}
+
+.quote {
+    color: maroon;
+    font-style: italic;
 }
