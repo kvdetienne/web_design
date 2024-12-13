@@ -83,3 +83,10 @@ footer{
     background-color: #04aa6d;
     color: white;
   }
+
+  .logo{
+    position:fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 20000;
+  }
