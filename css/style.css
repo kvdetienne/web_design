@@ -2,9 +2,8 @@ body {
     background-color: blanchedalmond;
 }
 
-aside{
+aside {
     text-align: center;
-    ruby-align: center;
 }
 
 table {
@@ -69,4 +68,3 @@ p {
     font-weight: bold;
     font-style: italic;
 }
-
