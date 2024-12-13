@@ -110,3 +110,13 @@ footer {
 .photo {
     width: 75%;
 }
+
+.images{
+    width:25%;
+    margin: 5px;
+    padding: 10px;
+   
+
+    border: 2px black dotted;
+    border-radius: 10px;
+}
