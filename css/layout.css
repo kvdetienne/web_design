@@ -1,3 +1,13 @@
+header{
+    width:100%;
+    margin: 25px;
+    padding:10px;
+    border: 2px black solid;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
 nav{
     
     box-sizing: border-box;
@@ -16,17 +26,23 @@ section{
     width: 70%;
     margin: 5px;
     padding:10px;
+
     border: 2px black solid;
+    border-radius: 10px;
 
     float: left;
     }
 
-
+img{
+    margin-left: auto;
+    margin-right: auto;
+}
 aside{
     width: 25%;
     margin: 5px;
     padding:1px;
 
+    border: 2px black dotted;
     margin-left: auto;
     margin-right: auto;
 
@@ -50,13 +66,7 @@ footer{
 
 }
 
-.left{
-    float:left;
-}
 
-.right{
-    float:right;
-}
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -90,3 +100,8 @@ footer{
     left: 20px;
     z-index: 20000;
   }
+
+  .photo{
+    width: 75%;
+  }
+
