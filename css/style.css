@@ -1,7 +1,10 @@
 body {
     background-color: blanchedalmond;
+}
 
-
+aside{
+    text-align: center;
+    ruby-align: center;
 }
 
 table {
